@@ -1,0 +1,82 @@
+.App {
+  max-width: 70rem;
+  margin: 5rem auto;
+}
+
+.activeE,
+.TotalE {
+  height: 100%;
+}
+
+.activeE,
+.activeEContainer,
+.CovidContainer,
+.CovidBlock,
+.TotalE,
+.TotalEContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CovidContainer,
+.activeEContainer,
+.TotalEContainer {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.CovidContainer {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+  color: #7c3aed;
+}
+
+.activeEContainer {
+  border: 1px solid #2563eb;
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+
+.TotalEContainer {
+  color: #b45309;
+  border: 1px solid #b45309;
+  background-color: #fef3c7;
+}
+
+.activeENum,
+.Covid,
+.TotalENum {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.CovidBlock {
+  flex-direction: column;
+}
+
+.Title {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  display: block;
+}
+
+.totalCovidGrid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  padding: 0;
+  background-color: white;
+}
+
+.tileLayout {
+  width: 100%;
+}
+
+.dashboardAside {
+  width: 15rem;
+}
